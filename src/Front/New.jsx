@@ -45,7 +45,6 @@ import Badge from "@mui/material/Badge";
 import CancelIcon from "@mui/icons-material/Cancel";
 import DirectionsIcon from "@mui/icons-material/Directions";
 import StarIcon from "@mui/icons-material/Star";
-import Dashboard from "../Component/MainLayout"
 
 const drawerWidth = 240;
 
@@ -301,90 +300,6 @@ export default function MiniDrawer() {
           </Grid>
         </Toolbar>
       </AppBar>
-      <Drawer variant="permanent" open={open} className="Toolbar-root">
-        <DrawerHeader className="Toolbar-root">
-          <IconButton onClick={handleDrawerClose}>
-            {theme.direction === "rtl" ? (
-              <ChevronRightIcon />
-            ) : (
-              <ChevronLeftIcon />
-            )}
-          </IconButton>
-        </DrawerHeader>
-        <Divider />
-        <List className="Toolbar-root">
-          {["Inbox", "Starred", "Send email", "Drafts"].map((text, index) => (
-            <ListItem key={text} disablePadding sx={{ display: "block" }}>
-              <ListItemButton
-                sx={{
-                  minHeight: 48,
-                  justifyContent: open ? "initial" : "center",
-                  px: 2.5,
-                }}
-              >
-                <ListItemIcon
-                  sx={{
-                    minWidth: 0,
-                    mr: open ? 3 : "auto",
-                    justifyContent: "center",
-                  }}
-                >
-                  {index % 2 === 0 ? <DirectionsIcon /> : <MailIcon />}
-                </ListItemIcon>
-                <ListItemText primary={text} sx={{ opacity: open ? 1 : 0 }} />
-              </ListItemButton>
-            </ListItem>
-          ))}
-        </List>
-
-        <Icon />
-
-        <List className="Toolbar-root">
-          {/* <ListItemButton
-            sx={{
-              minHeight: 48,
-              justifyContent: open ? "initial" : "center",
-              px: 2.5,
-            }}
-          >
-            <ListItemIcon
-              sx={{
-                minWidth: 0,
-                mr: open ? 3 : "auto",
-                justifyContent: "center",
-              }}
-            >
-              <DirectionsIcon />
-            </ListItemIcon>
-          </ListItemButton> */}
-          
-          <div className="Naws">
-
-          <img src={Avatar1} alt="D" />
-          <img src={Avatar2} alt="D" />
-          <img src={Avatar3} alt="D" />
-          <img src={Avatar4} alt="D" />
-          </div>
-
-          <ListItemButton
-            sx={{
-              minHeight: 48,
-              justifyContent: open ? "initial" : "center",
-              px: 2.5,
-            }}
-          >
-            <ListItemIcon
-              sx={{
-                minWidth: 0,
-                mr: open ? 3 : "auto",
-                justifyContent: "center",
-              }}
-            >
-              <DirectionsIcon />
-            </ListItemIcon>
-          </ListItemButton>
-        </List>
-      </Drawer>
     </Box>
   );
 }

@@ -370,3 +370,19 @@ li.MuiListItem-root.MuiListItem-gutters.css-uxa1ks-MuiListItem-root {
 .Naws img {
   padding-bottom: 10px;
 }
+
+
+.yellow {
+  background: yellow;
+  height: 360px;
+}
+
+.green {
+  background: #3dff00;
+  height: 360px;
+}
+
+.red {
+  background: red;
+  height: 360px;
+}
