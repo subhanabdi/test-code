@@ -7,7 +7,10 @@ import { getAuth, GoogleAuthProvider, GithubAuthProvider, createUserWithEmailAnd
 const firebaseConfig = {
   apiKey: "AIzaSyD6duLZ_d3x8_XtQovrvbr4hWxF9udwAkw",
   authDomain: "my-project-eb2e6.firebaseapp.com",
-
+  projectId: "my-project-eb2e6",
+  storageBucket: "my-project-eb2e6.appspot.com",
+  messagingSenderId: "752364170553",
+  appId: "1:752364170553:web:a46a28805a8f326e664ce8"
 };
 
 
