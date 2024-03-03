@@ -1,15 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider, GithubAuthProvider, createUserWithEmailAndPassword as signUp, signInWithEmailAndPassword as signIn, signOut as signOutUser, signInWithPopup } from 'firebase/auth';
 
-// Your web app's Firebase configuration
-const firebaseConfig = {
-    apiKey: "AIzaSyD6duLZ_d3x8_XtQovrvbr4hWxF9udwAkw",
-    authDomain: "my-project-eb2e6.firebaseapp.com",
-    projectId: "my-project-eb2e6",
-    storageBucket: "my-project-eb2e6.appspot.com",
-    messagingSenderId: "752364170553",
-    appId: "1:752364170553:web:a46a28805a8f326e664ce8"
-};
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
