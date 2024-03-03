@@ -2,6 +2,15 @@ import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider, GithubAuthProvider, createUserWithEmailAndPassword as signUp, signInWithEmailAndPassword as signIn, signOut as signOutUser, signInWithPopup } from 'firebase/auth';
 
 
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyD6duLZ_d3x8_XtQovrvbr4hWxF9udwAkw",
+  authDomain: "my-project-eb2e6.firebaseapp.com",
+
+};
+
+
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
