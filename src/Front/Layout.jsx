@@ -5,8 +5,8 @@ import Paper from '@mui/material/Paper';
 import AppBar from '@mui/material/AppBar';
 import Grid from '@mui/material/Grid';
 import Nav from "./Nav"
-import New from "./New"
-import Sidebar from './Sidebar';
+
+
 import { auth } from '../firebase';
 import { useNavigate } from 'react-router-dom';
 
