@@ -45,7 +45,7 @@ import Badge from "@mui/material/Badge";
 import CancelIcon from "@mui/icons-material/Cancel";
 import DirectionsIcon from "@mui/icons-material/Directions";
 import StarIcon from "@mui/icons-material/Star";
-import Dashboard from "../Component/MainLayout"
+import Dashboard from "../Component/Dashboard"
 
 const drawerWidth = 240;
 

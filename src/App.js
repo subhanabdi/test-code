@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Login from "./Component/Login"
 import Register from "./Component/Register"
-import Dashboard from "./Screen/Dashboard"
+import Dashboard from "./Component/Dashboard"
 import { BrowserRouter as Router, Route, Routes, Switch } from 'react-router-dom';
 import Careers  from "./page/Careers"
 import Features  from "./page/Features"
