@@ -10,7 +10,11 @@ const firebaseConfig = {
 
   projectId: "hello-new-d337a",
 
+  storageBucket: "hello-new-d337a.appspot.com",
 
+  messagingSenderId: "590690437215",
+
+  appId: "1:590690437215:web:f18f60a32f39efd11e73ea"
 
 };
 
