@@ -4,7 +4,13 @@ import { getAuth, GoogleAuthProvider, GithubAuthProvider, createUserWithEmailAnd
 // Your web app's Firebase configuration
 const firebaseConfig = {
 
- 
+  apiKey: "AIzaSyAJvH8F0Vk6hvkJKTLk-K9VJn6fzbEpsN0",
+
+  authDomain: "hello-new-d337a.firebaseapp.com",
+
+  projectId: "hello-new-d337a",
+
+
 
 };
 
