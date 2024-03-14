@@ -16,7 +16,7 @@ function App() {
 
       
       
-      <Router basename="/test-code">
+      <Router >
         <Routes>
           <Route path="/" element={<Login />} /> 
           <Route path="/register" element={<Register />} /> 
